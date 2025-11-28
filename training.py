@@ -88,8 +88,6 @@ def train_bot(cat_name, render: int = -1):
         #curr_state, _ = env.reset()
         #prev_distance = manhattan_distance(curr_state)
 
-        #for step in range(max_steps_per_ep):
-               
         
 
 
