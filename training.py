@@ -57,7 +57,7 @@ def train_bot(cat_name, render: int = -1):
 
     max_steps_per_ep = 
 
-    
+    # dont quote me on these guys.. </3
 
 
 
