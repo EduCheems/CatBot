@@ -49,7 +49,14 @@ def train_bot(cat_name, render: int = -1):
     # Hint: You may want to declare variables for the hyperparameters of the    #
     # training process such as learning rate, exploration rate, etc.            #
     #############################################################################
-    
+
+    learning_rate = 
+    exploration_rate = 
+    explore_rate_minimum = # ?? js to prevent the bot from stopping exploration completely ?
+    # im not sure what else to add guys HJSADHA
+
+    max_steps_per_ep = 
+
     
 
 
@@ -76,6 +83,12 @@ def train_bot(cat_name, render: int = -1):
         # 4. Since this environment doesn't give rewards, compute reward manually    #
         # 5. Update the Q-table accordingly based on agent's rewards.                #
         ############################################################################## 
+
+        # reset environment  guys di ko sure to huhu 
+        #curr_state, _ = env.reset()
+        #prev_distance = manhattan_distance(curr_state)
+
+        #for step in range(max_steps_per_ep):
                
         
 
