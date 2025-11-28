@@ -9,6 +9,17 @@ from cat_env import make_env
 # TODO: YOU MAY ADD ADDITIONAL IMPORTS OR FUNCTIONS HERE.                   #
 #############################################################################
 
+def manhattan_distance (state: int) -> int:
+    # br bc = bot row bot column
+    # cr cc = cat row cat column
+    # |bot row - cat row| + |bot col - cat col|
+
+    br = (state // 1000) % 10
+    bc = (state // 100) % 10
+    cr = (state // 10) % 10
+    cc = state % 10
+    return abs(ar - cr) + abs(ac - cc)
+
 
 
 
